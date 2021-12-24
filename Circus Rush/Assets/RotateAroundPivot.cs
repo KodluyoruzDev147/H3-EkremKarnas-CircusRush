@@ -6,6 +6,17 @@ public class RotateAroundPivot : MonoBehaviour
 
     public List<Transform> pinList = new List<Transform>();
     public Transform satellite; // Objects rotating around the center
+    /* ZTK was here
+     * Kodlamada isimlendirme standartları çok önemlidir.
+     * Birisinin mülakat ödevini kontrol ettiğim zaman 
+     * isimlendirme yapılırken aynı özelliklerde iki farklı değişkenin birisi küçük birisi bütük harfle başlanmış şekilde görürsem
+     * Bu iki farklı ihtimale işaret eder...
+     * Ya isimlendirme standartlarına önem vermeden yazma alışkanlığı bulunuyor (Bu çok kötü bir durum)
+     * Ya da kodun bu kısmı projeyi yapan kişi tarafından yazılmamış, yani dışarıdan hazır alınmış kod (Bu çok daha kötü bir durum)
+     * 
+     * Önemsizmiş gibi görünse de sadece bir harf farkından bile çok fazla anlam çıkabiliyor.
+     * Bu standartlara çok dikkat etmeni öneririm.
+     */
     public static int Satellitecount = 1;
     public static float distanceFromCenter = 0.3f;
     public int rotationSpeed = 5;
